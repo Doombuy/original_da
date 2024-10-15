@@ -1,0 +1,56 @@
+@import './variables';
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+
+	
+
+	
+	font-family: $default-font;
+	letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+html,
+body {
+    width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: $general_bg;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	height: 100%;
+    font-family: $default-font;
+}
+
+#root {
+	height: 100%;
+}
+
+/*Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+
+input[type='number'] {
+	-moz-appearance: textfield;
+} 
