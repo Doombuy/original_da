@@ -5,6 +5,7 @@ import {Helmet} from "react-helmet";
 import './Home.Module.scss'
 import GeneralCarousel from '../../carousel/GeneralCarousel'
 import Routers from '../../../../routes/Routes';
+import GeneralForm from '../../any_questions/GeneralForm';
 
 function Home() {
 	return (
@@ -16,6 +17,10 @@ function Home() {
             </Helmet>
 			<div className="carousel">
 				<GeneralCarousel/>
+			</div>
+			<div className="general_form">
+				<GeneralForm/>
+				<div className='form_image'></div>
 			</div>
             
         
