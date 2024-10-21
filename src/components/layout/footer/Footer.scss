@@ -1,0 +1,113 @@
+@import '../../../assets/styles/variables';
+.footer{
+    width: 100%;
+    height: 40%;
+    background-color: #fff;
+    margin-top: 5%;
+    
+    color: $general_bg;
+    
+}
+.general_slice{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    position: relative;
+    //border-bottom: 0.8px  solid;
+    //border-color: #b5b3b4;
+}
+.general_slice::after{
+    content: "";
+    filter: blur(0.5px);
+    width: 90%;
+    height: 0.08px;
+    background-color: #cecbcc;
+    position: absolute;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contacts{
+    width: auto ;
+    display: inline-block;
+    padding-left: 5%;
+    padding-top: 3%;
+    z-index: 3;
+    color: $general_bg;
+    position: relative;
+    
+}
+.contacts h1{
+    font-weight: 390;
+    font-size: 2.1rem;
+    transition: 0.9s;
+    
+}
+.general_slice li{
+    font-weight: 440;
+}
+.contacts h1:hover{
+    color: $premium-color;
+}
+
+
+
+.footer_menu{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding-top: 3%;
+    
+    font-size: 18px;
+    line-height: 1.8;
+    
+}
+ul{
+    list-style-type: none;
+}
+#footer_module{
+    position: absolute;
+    padding-left: 50%;
+    display: inline-block;
+    z-index: 1;
+    
+}
+#footer_share{
+    position: absolute;
+    padding-left: 72%;
+    display: inline-block;
+}
+
+
+
+
+.minor_slice{
+    width: 100%;
+    color: #6b6b6b;
+    padding-top: 0.9%;
+    
+}
+#corparation{
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    padding-left: 5%;
+    z-index: 2;
+
+}
+#police_conf{
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 50%;
+    z-index: 1;
+    
+    
+}
+#error_site{
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 72%;
+    position: absolute;
+}
