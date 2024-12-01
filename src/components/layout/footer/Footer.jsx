@@ -13,10 +13,10 @@ const Footer=()=>{
                 </div>
                 <div className='footer_menu'>
                     <ul id='footer_module'>
-                        <li>Типовые проекты</li>
-                        <li>Партнёрам</li>
-                        <li>Контакты</li>
-                        <li>Портфолио</li>
+                        <li><Link to="/" data-text="Главная">Главная</Link></li>
+                        <li><Link to="/Catalog" data-text="Каталог">Каталог</Link></li>
+                        <li><Link to="*" data-text="Премиум">Премиум</Link></li>
+                        <li><Link to="*" data-text="О нас">О нас</Link></li>
                     </ul>
                     <ul id='footer_share'>
                         <li>Instagram</li>

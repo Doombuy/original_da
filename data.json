@@ -1,0 +1,58 @@
+
+
+[
+    {
+        "id": 1,
+        "name": "Диван",
+        "description": "Удобный диван с высокой спинкой.",
+        "price": 20000,
+        "image": "/public/images/img_catalog/1.jpg",
+        "category": "Шкафы",
+         "subcategory": "Купе"
+    },
+    {
+        "id": 2,
+        "name": "Кресло",
+        "description": "Комфортное кресло для отдыха.",
+        "price": 10000,
+        "image": "/public/images/img_catalog/2.jpg",
+        "category": "Шкафы",
+         "subcategory": "Чистое дерево"
+    },
+    {
+        "id": 3,
+        "name": "Стол",
+        "description": "Обеденный стол из массива дерева.",
+        "price": 15000,
+        "image": "/public/images/img_catalog/3.jpg",
+        "category": "Шкафы",
+         "subcategory": "Чистое дерево"
+    },
+    {
+        "id": 4,
+        "name": "Шкаф",
+        "description": "Обеденный стол из массива дерева.",
+        "price": 15000,
+        "image": "/public/images/img_catalog/3.jpg",
+        "category": "Шкафы",
+         "subcategory": "Чистое дерево"
+    },
+    {
+        "id": 5,
+        "name": "Тумба",
+        "description": "Обеденный стол из массива дерева.",
+        "price": 15000,
+        "image": "/public/images/img_catalog/3.jpg",
+        "category": "Шкаф",
+        "subcategory": "Чистоедерево"
+    },
+    {
+        "id": 6,
+        "name": "Шкаф",
+        "description": "Обеденный стол из массива дерева.",
+        "price": 15000,
+        "image": "/public/images/img_catalog/3.jpg",
+        "category": "Шкаф",
+        "subcategory": "Итальянское качество"
+    }
+]
