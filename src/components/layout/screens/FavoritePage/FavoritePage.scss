@@ -1,0 +1,82 @@
+@import '/src/assets/styles/variables';
+
+.Favorite_full_page{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: $simple-color;
+}
+.Favorite_full_page h1{
+    text-align: center;
+    font-weight: 400;
+}
+.Favorite_full_page ul{
+
+}
+.product_favorite{
+    
+}
+.fav_btn{
+    transition: 0.3s ease-in;
+}.fav_btn:hover{
+    background-color: #222222;
+    color: $premium-color;  
+    font-family: 800;
+}
+
+
+
+.product-card1-fav {
+    position: relative;
+    right: 0px;
+    
+    
+
+    //outline: 1px solid #c0cccf6f;
+    box-shadow: 0px 0px 1px 1px #c0cccf57;
+
+    border-radius: 5px;
+    margin: 0px 0px 35px 0px;
+    
+    min-width: auto;
+    width: 100%;
+    text-align: center;
+    transition: all 0.8s ease;
+    display: flex; /* Включаем Flexbox */
+    //flex-direction: column; /* Располагаем содержимое по вертикали */
+    //justify-content: space-between;
+    height: auto;
+    align-items: center;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.091);
+    overflow: hidden;
+    
+}
+.product-card1-fav:hover{
+    outline: 1px solid #c0cccf1d;
+    
+    
+}
+.product-card1-fav:hover .product-img img{
+    transform: scale(1.05);
+
+}
+@media (max-width:1050px) {
+    .Favorite_full_page{
+        width: 90%;
+        margin-left: 5%;
+    }.product-description{
+        width: 40%;
+    }#fav_btns{
+        display: block !important;
+    }
+    #fav_btns button{
+        width: 100% !important;
+        height: 35px !important;
+        margin-bottom: 0.5rem;
+    }#fav_btns a{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }.product-card1-fav{
+        justify-content: center;
+    }
+}

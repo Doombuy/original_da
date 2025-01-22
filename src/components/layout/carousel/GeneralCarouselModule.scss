@@ -1,63 +1,169 @@
 @import '../../../assets/styles/variables';
-.carousel{
-    width: 90%;
-    display: flex;
+.carousel_home{
+    width: 90% ;
+    display: flex ;
     margin-left: 5%;
-    height: auto;
+    height: 800px ;
+
+}
+#p_mb{
+    display: none;
+}
+#crs-dga{
+    display: block;
+    width: 100%; 
+    object-fit: cover;
+    border-radius:15px 0 0 15px;
+    height: 800px;
+}
+@media (max-width: 768px) {
+    .carousel_home{
+        display: block;
+        height: max-content;
+        //margin-top: 100%;
+
+
+    }
+    .img_prod{
+        height: 300px !important;
+        border-radius: 15px 15px 0 0 !important;
+    }
+    #p_pc{
+        display: none;
+
+    }
+    #p_mb{
+        display: block;
+    }
+    .carousel_home_second{
+        display: block !important;
+        height: auto !important; 
+        //margin-top: 100%;
+
+
+    }
+    .Imgcrls img{
+        width: 100% !important;
+        height: 300px !important;
+        object-fit: cover !important;
+        border-radius: 15px 15px 0 0 !important;
+    }
+    .carousel .slider-wrapper{
+        
+    }.carousel1{
+        overflow: hidden;
+        //padding-top: 100%;
+    }
+    .carausel_general{
+        height: 200px;
+    }
+    #crs-dga{
+        height: 300px !important;
+        width: 100%;
+        border-radius: 15px 15px 0 0 !important;
+    }
+    #txtdiv{
+        border-radius: 0  !important;
+    }
+    #Imgcrls{
+        width: 100% !important;
+        height: 300px !important;
+        //border-radius: 15px 15px 15px 15px !important;
+    }#Txtcrls{
+        width: 100% !important;
+        height: 200px !important;
+        border-radius: 0 !important;
+    }#txtdiv_d{
+        align-items: center !important;
+    }
+    #txtdiv h1{
+        font-size: 22px !important;
+    }#txtdiv p{
+        font-size: 18px !important;
+    }
+    #txtdiv_d{
+        padding-left: 0 !important;
+    }#pc_crs{
+        display: none;
+    }#m_crs{
+        display: block !important;
+    }.crs_btn_home{
+        width: 95% !important;
+    }
+}
+@media  (max-width: 1015px){
+    
+}
+
+.carousel_home_second{
+    margin-top: 2rem;
+    width: 90% ;
+    display: flex ;
+    margin-left: 5%;
+    height: 800px ;
+}
+
+#carausel_general{
+    background-color: #fff !important;
+    height: 100% ;
 }
 
 #Imgcrls{
-    width: 50%; //для картинок 800x400 
+    width: 55%; //для картинок 800x400 
+    height: 100%;
+   
 }
 #Txtcrls{
-    width: 50%; //для картинок 800x400 
+    width: 45%; //для картинок 800x400 
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+    
+}#Txtcrls .carousel-root{
+    height: 100%;
+    background-color:#d4ddde;
+    //border-radius: 0 15px 15px 0;
 }
-#txtdiv img{
+#txtdiv {
     position: relative;
+    background-color: #d4ddde;
+    background-position: center center;
+    min-height: 100%;
+}
+.carousel_home_second #Txtcrls .carousel-root{
+    //border-radius: 15px 0 0 15px;
+}.carousel_home_second #Txtcrls .carousel .slider-wrapper {
+    border-radius: 15px;
+}
+#Txtcrls .carousel.carousel-slider{
+    height: 100%;
+}#Txtcrls .carousel .slider-wrapper{
+    height: 100%;
+}#Txtcrls .carousel .slider-wrapper.axis-horizontal .slider{
+    height: 100%;
 }
 #txtdiv p{
-    position: absolute;
-    color: #000000;
-    top: 30%;
+    z-index: 1111;
+    color: $general_bg;
+    
     transition: 0.4s;
     font-size: 19px;
     text-align: center;
-}
-#txtdiv p:hover{
-    
-    color: $premium-color;
-}
-/*.carousel-root{
-    display: block;
-    vertical-align: middle;
-}
-#txtdiv p{
-    position: relative;
-    z-index: 100;
-    color: black
+}#txtdiv h1{
+    color: $general_bg;
+    font-size: 40px;
+    font-weight: 520;
     
 }
 
-.carousel{
-    width: 80%;
-    display: flex;
-    padding-top: 5%;
-    margin-left: 10%;
-    
-}
-.crlsImg{
-    width: 40%;
-    position: relative;
-    background-size: cover;
-  }
-.crlsTxt{
-    background-size: contain;
-    width: 40%;
-    border-radius: 0 5px 5px 0;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.crs_btn_home{
+    background-color: #222222;
+    color: $premium-color;  
+    transition: 0.4s ease-out;
+    font-family: 800;
+    width: 20rem;
+
+}.crs_btn_home:hover{
+    background-color: #af670e;
+    color: #B6C1C2;
     display: inline-block;
-    vertical-align: middle;
-}*/
+}

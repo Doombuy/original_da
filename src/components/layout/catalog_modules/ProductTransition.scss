@@ -1,0 +1,436 @@
+@import '../../../assets/styles/variables';
+.ProductPage{
+    margin-left: 10%;
+    display: flex;
+    padding-top: 5%;
+    width: 90%;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+
+
+.favorite-button{
+    width: 30px !important;
+    background-color: inherit !important;
+   
+    margin-left: 1rem;
+    
+    
+}.favorite-button img{
+    margin-top: 2.4rem;
+    width: 40px;
+    transition: transform 0.1s ease; 
+}.favorite-button:hover {
+    transform: scale(1.2);
+    
+  }
+  
+
+.carousel2{
+    width: 95%;
+    display: inline-block;
+    height: auto;
+    margin-top: 10px;
+    padding-top: 0% !important;
+
+
+    
+}
+.carousel2 img{
+    border-radius: 10px;
+}.crsrooot{
+    width: 45%;
+}
+.carousel-root{
+    //width: 45%;
+}.carousel2 .carousel-slider{
+    border-radius: 10px;
+}
+.backbtn{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+}
+.backbtn img{
+    width: 30px;
+    height: 21px;
+    
+}
+.description{
+    width: 33%;
+    position: absolute;
+    margin-left: 57%;
+    margin-bottom: 12px;
+    color: #c1cacb;
+    height: auto;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}.table-decs{
+    
+}
+.description h1{
+    transition-property: max-height;
+    will-change: max-height;
+    word-break: break-word;
+    -webkit-box-orient: vertical;
+    
+    font-style: normal;
+    color: #c1cacb;
+    font-weight: 570;
+    font-size: 24px;
+    
+}.description p{
+    padding-top: 12px;
+}
+#spanchik{
+    cursor: pointer;
+    color: #c1cacb53;
+    transition:   0.4s ease;
+}
+#spanchik:hover {
+    color: rgba(165, 187, 190, 0.184);
+}
+.request{
+    width: 25%;
+    position: absolute;
+    margin-left: 52%;
+    
+    align-items: center;
+    display:block;
+    
+    
+    
+}.requestButton{
+    margin-top: 2rem;
+    font-size: 18px;
+    width: 100%;
+    padding: 12px;
+    min-width: auto;
+    text-transform: uppercase;
+    position: relative;
+    height: 60px;
+    transition: 0.4s ease-out;
+    
+    
+    
+}.requestButton:hover{
+    background-color: #222222;
+    color: $premium-color;  
+    font-family: 800;
+
+}
+
+.requestButton_modal{
+    margin-top: 2rem;
+    font-size: 18px;
+    width: 50%;
+    padding: 12px;
+    min-width: auto;
+    text-transform: uppercase;
+    position: relative;
+    height: auto;
+    transition: 0.4s ease-out;
+    
+}.requestButton_modal:hover{
+    background-color: #222222;
+    color: $premium-color;  
+    font-family: 800;
+
+}
+
+.price{
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+}.request h1{
+    font-weight: 350;
+}.moredetails{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 14px;
+    color: #c1cacbaf;
+    transition:1s ease ;
+    margin-right: 1rem;
+}.moredetails:hover{
+    cursor: pointer;
+    color: #c1cacbdc;
+}
+.characteristics{
+    margin-left: 10%;
+    padding-bottom: 100px;
+    color: #c1cacbfd;
+    //display: flex;
+    width: 38%;
+}
+.flexes{
+    display: flex;
+}
+.obj{
+    //display: flex;
+    position: relative;
+    width: auto;
+    
+}.obj h1{
+    font-size: 28px;
+    padding-bottom: 3rem;
+    font-weight: 550;
+    line-height: 1;
+    letter-spacing: 1.3;
+}
+.charleft{
+    margin-top: 3rem;
+    
+}.charright{
+    margin-top: 3rem;
+    padding-left: 8rem;
+}
+
+.char-item{
+    font-size: 18px;
+    padding-top: 1rem;
+}
+.carousel.carousel-slider .control-arrow{
+    padding: 0 !important;
+    height: 50px;
+    width: 70px;
+    opacity: 0.7 !important;
+    color: #656060 !important;
+    filter: brightness(140%);
+}
+.carousel .control-arrow {
+    top: 50% !important; /* Выровнять по вертикали */
+    transform: translateY(-50%) !important; /* Центрировать стрелки по вертикали */
+    width: 20%;
+    
+    
+}
+
+.carousel .control-prev {
+    left: 10px;  /* Отступ слева */
+    z-index: 2;  /* Убедитесь, что стрелки остаются поверх других элементов */
+    
+}
+
+.carousel .control-next {
+    right: 10px; /* Отступ справа */
+    z-index: 2;  /* Убедитесь, что стрелки остаются поверх других элементов */
+}
+.hzr{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    align-self: normal;
+}   .hzr1{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 0%;
+    align-self: normal;
+}   .hzr2{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    align-self: normal;
+    right: 0%;
+}   .hzr3{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    align-self: normal;
+    bottom: 0%;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 1s ease, transform 0.3s ease;
+    width: 100%;
+    
+}
+.modal_open_request{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 1s ease, transform 0.3s ease;
+    width: 100%;
+    
+}.modal_open_request .modal-content{
+    width: 30%;
+    background-color: #222222b4;
+    height: auto;
+    border-radius: 50px;
+}
+.modal-content input{
+    padding: 0 0 0 15px;
+    border: none;
+    outline: none;
+    cursor: line;
+    
+    box-sizing: border-box;
+    position: relative;
+   
+}
+.modal-content textarea{
+    border: none;
+    outline: none;
+    cursor: line;
+    padding: 10px 0 0 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.modal-content input::placeholder{
+    color: #c1cacb;
+    padding: 0;
+    filter: brightness(75%);
+    
+}.modal-content textarea::-webkit-input-placeholder{
+    
+    
+    color: #c1cacb;
+    filter: brightness(75%);
+}
+
+
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-controls {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.carousel .thumb{
+    border: 0px  !important;
+}
+.carousel .thumb.selected, .carousel .thumb:hover{
+    //border: 1px solid #c1cacb !important;
+}
+.carousel .thumb.selected{
+    border: 1px solid #c1cacb !important;
+    border-radius: 15px; 
+    display: inline-block;
+}
+
+.crs-root{
+    width: 50%;
+    
+}.crs-root img{
+    border-radius: 15px;
+
+
+}.crs-root .carousel-slider{
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 24px; /* или другой размер, который вам нужен */
+    cursor: pointer;
+    position: absolute; /* Для абсолютного позиционирования */
+    top: 50%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Центрирование */
+    z-index: 10; /* чтобы кнопки были поверх изображения */
+  }
+  
+  .arrow.left {
+    left: 10px; /* Позиция стрелки влево */
+  }
+  
+  .arrow.right {
+    right: 10px; /* Позиция стрелки вправо */
+  }
+
+
+
+
+
+.crs_prod_trans{
+    height: 100%;
+}
+.carousel .thumb img{
+    height: 60px !important;
+}
+
+@media (max-width:768px){
+    .ProductPage{
+        display: block;
+        margin-left: 5%;
+        margin-top: 1rem;
+    }.carousel2{
+        width: 100%;
+    }
+    .crsrooot{
+        width: 100%;
+    }.thumb.selected{
+        height: 62px !important;
+    }.carousel .thumb img{
+        height: 60px !important;
+    }.crs-root{
+        width: 90%;
+    }.crs_prod_trans{
+        height: 100% ;
+    }.modal {
+        background-color: rgba(0, 0, 0, 0.874);
+    }.request{
+        position: relative;
+        margin-left: 5%;
+        width: 90%;
+    }.flexes{
+        display: block;
+    }.description{
+        position: relative;
+        margin-left: 5%;
+        width: 90%;
+    }.characteristics{
+        width: 90%;
+    }.charright{
+        padding-left: 5rem;
+    }.backbtn{
+        margin-left: 0;
+        display: none;
+    }.backbtn img{
+        width: 20px;
+    }.table-decs{
+        text-align: left !important;
+    }
+}
+.carousel .slide img{
+    object-fit:cover ;
+}
+  

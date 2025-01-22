@@ -31,12 +31,13 @@ body {
 	background-color: $general_bg;
 	padding: 0;
 	margin: 0;
-	color: #fff;
+	color: $simple-color;
 	min-width: 320px;
 	position: relative;
 	line-height: 1.65;
 	height: 100%;
     font-family: $default-font;
+	
 }
 
 #root {

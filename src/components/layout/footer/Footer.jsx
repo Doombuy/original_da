@@ -8,15 +8,15 @@ const Footer=()=>{
             <div className='general_slice'>
                 <div className='contacts'>
                     <h1>8 960 406 16 66</h1>
-                    <h1>glebdzusovofficial@gmail.com</h1>
+                    <h1>glebdzfficial@gmail.com</h1>
                     
                 </div>
                 <div className='footer_menu'>
                     <ul id='footer_module'>
-                        <li><Link to="/" data-text="Главная">Главная</Link></li>
-                        <li><Link to="/Catalog" data-text="Каталог">Каталог</Link></li>
-                        <li><Link to="*" data-text="Премиум">Премиум</Link></li>
-                        <li><Link to="*" data-text="О нас">О нас</Link></li>
+                        <li><a href="/" data-text="Главная">Главная</a></li>
+                        <li><a href="/Catalog" data-text="Каталог">Каталог</a></li>
+                        <li><a href="*" data-text="Премиум">Премиум</a></li>
+                        <li><a href="*" data-text="О нас">О нас</a></li>
                     </ul>
                     <ul id='footer_share'>
                         <li>Instagram</li>

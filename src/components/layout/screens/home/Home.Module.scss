@@ -29,24 +29,27 @@ g{
   height: 100px;
 }
 .carousel1{
-    padding-top: 50%;
+    margin-top: 5rem;
     position: relative;
+    
 }
+
 .carousel2{
   padding-top: 5%;
   position: relative;
 }
 .full_header{
     font-stretch: condensed;
-    position: absolute;
+    position: relative;
     width: 90%;
-    height: 85% !important;
+    height: 900px;
     background-image: url(/public/images/menu-bg.png);
     background-size: cover;
     margin-left: 5%;
     z-index: 33;
     background-blend-mode: darken;
     border-radius: 3px;
+    overflow: hidden;
   }
 .full_header::after{
     content: '';
@@ -112,6 +115,7 @@ g{
     color: #d1ddde;
     padding-left: 3%;
     display: inline-block;
+    
 }
 .id2{
     width: 50%;
@@ -119,7 +123,7 @@ g{
     z-index: 2  ;
     font-weight: 420;
     letter-spacing: 1.5px;
-    right: 0px;
+    right: 0;
     font-size: 18px;
     top: 50%;
 }
@@ -139,7 +143,7 @@ g{
     font-size: 18px;
     background-color: inherit;
     border: 0.2px solid rgba(156, 166, 167, 0.216);
-    transition: 1s;
+    transition: 0.3s ease-out;
 }
 .id_24_1:hover{
     background-color: $premium-color;
@@ -151,7 +155,7 @@ g{
 
 .three{
   bottom: 3%;
-  margin-left: 3%;
+  margin-left: 2%;
   position: absolute;
   z-index: 2;
   display: flex;
@@ -184,4 +188,70 @@ g{
   border-top: 1px solid #ffffff55;
   padding-left: 3%;
   padding-top: 2%;
+}
+
+
+@media (max-width: 768px) {
+  .modal_open_request{
+    width: 100%;
+   display: block;
+   
+  }
+  .modal-content{
+    margin-left: 5%;
+    margin-top: 35%;
+  }
+  .close{
+    display: none;
+  }
+  .typed{
+    display: none;
+  }
+  .three{
+    margin-left: 0;
+  }
+  .three2{
+    display: none;
+
+  }
+  .three1 p{
+    text-align: center;
+  }.three1 h2{
+    text-align: center;
+  }
+  .three3 p{
+    text-align: center;
+  }.three3 h2{
+    text-align: center;
+  }
+  .three1 {
+    width: 50%;
+    
+  }.three3{
+    width: 50%;
+    padding-left: 0;
+  }
+  .id2{
+    width: 100%;
+    
+   text-align: center;
+  }
+  .id_23{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }.id_24{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }.id_24_1{
+    transition: 0s;
+  }.modal_open_request .modal-content{
+    width: 90%;
+  }
+}
+@media (max-width: 1015px) {
+
 }

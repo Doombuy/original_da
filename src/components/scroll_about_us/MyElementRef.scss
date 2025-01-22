@@ -1,0 +1,166 @@
+@import '/src/assets/styles/variables';
+
+.full_page_about_page{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: $simple-color;
+}
+
+.about_company{
+    position: relative;
+    width: 70%;
+    margin-left: 18%;
+    
+}.about_company h1{
+    color: $simple-color ;
+    font-weight: 450;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
+.anchors_about_us{
+    position: absolute;
+    margin-top: 3rem;
+    
+    
+
+}.anchors_about_us ul{
+    font-size: 15px;
+    
+}.anchors_about_us ul li{
+    padding-bottom: 0.5rem;
+    color: $simple-color;
+    transition: 0.3s ease-out;
+    color: #b6c1c2fb;
+}.anchors_about_us ul li:hover{
+    cursor: pointer;
+    color: #b6c1c2bd;
+
+}
+
+
+.general_values {
+    width: 70%;
+    margin-left: 18%;
+    margin-top: 3rem;
+}.general_values h1{
+    color: $simple-color ;
+    font-weight: 450;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding-bottom: 3rem;
+    
+}.general_values ul li{
+    display: flex;
+    padding-top: 2rem;
+}.general_values ul li img{
+    width: 80px;
+    height: 80px;
+}.general_values ul li h4{
+    margin-top: 0.5%;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 1%;
+}.general_values ul li h4 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+.leaders{
+    width: 70%;
+    margin-left: 18%;
+    margin-top: 5rem;
+}
+.leaders img{
+    width: 250px;
+    border-radius: 100%;
+}
+.leaders h1{
+    color: $simple-color ;
+    font-weight: 450;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding-bottom: 3rem;
+    
+}.leaders h3{
+    font-weight: 450;
+    text-align: center;
+}.leaders h3 p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.firsr_own{
+    //
+}.second_own{
+    margin-left: 5rem;
+}.general_dir{
+    margin-left: 5rem;
+}
+
+
+.vacancies{
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 7rem;
+    
+    
+}
+.vacancies img{
+    width: 80px;
+    height: 80px;
+    
+    
+}
+.vacancies h1{
+    color: $simple-color ;
+    font-weight: 450;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding-bottom: 3rem;
+    
+}
+
+
+.vacancies_view{
+    width: 50%;
+    margin-right: 6rem;
+}
+.vacancies_view p{
+    padding-bottom: 1rem;
+}
+.vacancies_view a{
+    font-style: none;
+    color: #5cd3debd;
+    font-size: 14px;
+    transition: 0.3s ease-in;
+}.vacancies_view a:hover{
+    color: #5cd3de88;
+}
+
+.vacancies_cont{
+    width: 50%;
+    margin-left: 6rem;
+
+}.vacancies_cont p{
+    padding-bottom: 1rem;
+}.vacancies_cont a{
+    font-style: none;
+    color: #5cd3debd;
+    font-size: 14px;
+    transition: 0.3s ease-in;
+}.vacancies_cont a:hover{
+    color: #5cd3de88;
+}
+@media (max-width: 768px){
+    .owns_mb{
+        display: flex;
+        justify-content: center;
+    }
+}

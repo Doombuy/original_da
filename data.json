@@ -4,55 +4,165 @@
     {
         "id": 1,
         "name": "Диван",
-        "description": "Удобный диван с высокой спинкой.",
+        "description": "удобный диван с высокой спинкой.",
+        "detaileddescription" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.",
         "price": 20000,
-        "image": "/public/images/img_catalog/1.jpg",
+        "images": [
+            "/public/images/crs_home_first_1page.png",
+            "/public/images/img_catalog/2.jpg",
+            "/public/images/img_catalog/3.jpg"
+        ],
         "category": "Шкафы",
-         "subcategory": "Купе"
+        "subcategory": "Купе",
+        "charname": [
+            "Тип: ",
+            "Размеры: ",
+            "Материал: ",
+            "Вид: "
+
+        ],
+        "chardesc":[
+            "Мебель",
+            "87x73x45",
+            "Дуб, шелк",
+            "Мягкая мебель"
+        ],
+        "model": "bmx x6"
+
     },
     {
         "id": 2,
         "name": "Кресло",
-        "description": "Комфортное кресло для отдыха.",
+        "description": "комфортное кресло для отдыха.",
+        "detaileddescription" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.",
         "price": 10000,
-        "image": "/public/images/img_catalog/2.jpg",
+        "images": [
+            "/public/images/crs_home_first_2page.jpg",
+            "/public/images/img_catalog/1.jpg"
+        ],
         "category": "Шкафы",
-         "subcategory": "Чистое дерево"
+         "subcategory": "Чистое дерево",
+         "charname": [
+            "Тип: ",
+            "Размеры: ",
+            "Материал: ",
+            "Вид: "
+
+        ],
+        "chardesc":[
+            "Мебель",
+            "87x73x45",
+            "Дуб, шелк",
+            "Мягкая мебель"
+        ],
+        "model": "bmx x6"
     },
     {
         "id": 3,
         "name": "Стол",
-        "description": "Обеденный стол из массива дерева.",
+        "description": "обеденный стол из массива дерева.",
+        "detaileddescription" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.",
         "price": 15000,
-        "image": "/public/images/img_catalog/3.jpg",
+        "images": [
+            "/public/images/crs_home_first_3page.jpg",
+            "/public/images/img_catalog/1.jpg"
+        ],
         "category": "Шкафы",
-         "subcategory": "Чистое дерево"
+         "subcategory": "Чистое дерево",
+         "charname": [
+            "Тип: ",
+            "Размеры: ",
+            "Материал: ",
+            "Вид: "
+
+        ],
+        "chardesc":[
+            "Мебель",
+            "87x73x45",
+            "Дуб, шелк",
+            "Мягкая мебель"
+        ],
+        "model": "bmx x6"
     },
     {
         "id": 4,
         "name": "Шкаф",
-        "description": "Обеденный стол из массива дерева.",
+        "description": "обеденный стол из массива дерева.",
+        "detaileddescription" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.",
         "price": 15000,
-        "image": "/public/images/img_catalog/3.jpg",
+        "images": [
+            "/public/images/img_catalog/2.jpg",
+            "/public/images/img_catalog/1.jpg"
+        ],
         "category": "Шкафы",
-         "subcategory": "Чистое дерево"
+         "subcategory": "Чистое дерево",
+         "charname": [
+            "Тип: ",
+            "Размеры: ",
+            "Материал: ",
+            "Вид: "
+
+        ],
+        "chardesc":[
+            "Мебель",
+            "87x73x45",
+            "Дуб, шелк",
+            "Мягкая мебель"
+        ],
+        "model": "bmx x6"
     },
     {
         "id": 5,
         "name": "Тумба",
-        "description": "Обеденный стол из массива дерева.",
+        "description": "обеденный стол из массива дерева.",
+        "detaileddescription" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.",
         "price": 15000,
-        "image": "/public/images/img_catalog/3.jpg",
+        "images": [
+            "/public/images/img_catalog/2.jpg",
+            "/public/images/img_catalog/1.jpg"
+        ],
         "category": "Шкаф",
-        "subcategory": "Чистоедерево"
+        "subcategory": "Чистоедерево",
+        "charname": [
+            "Тип: ",
+            "Размеры: ",
+            "Материал: ",
+            "Вид: "
+
+        ],
+        "chardesc":[
+            "Мебель",
+            "87x73x45",
+            "Дуб, шелк",
+            "Мягкая мебель"
+        ],
+        "model": "bmx x6"
     },
     {
         "id": 6,
         "name": "Шкаф",
-        "description": "Обеденный стол из массива дерева.",
+        "description": "обеденный стол из массива дерева.",
+        "detaileddescription" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt vero consequatur minus, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, est facilis asperiores ullam repellendus, ab necessitatibus numquam corrupti laudantium eveniet voluptas magnam provident? Optio tenetur a nesciunt laboriosam quisquam.",
         "price": 15000,
-        "image": "/public/images/img_catalog/3.jpg",
+        "images": [
+            "/public/images/img_catalog/2.jpg",
+            "/public/images/img_catalog/1.jpg"
+        ],
         "category": "Шкаф",
-        "subcategory": "Итальянское качество"
+        "subcategory": "Итальянское качество",
+        "charname": [
+            "Тип: ",
+            "Размеры: ",
+            "Материал: ",
+            "Вид: "
+
+        ],
+        "chardesc":[
+            "Мебель",
+            "87x73x45",
+            "Дуб, шелк",
+            "Мягкая мебель"
+        ],
+        "model": "bmx x6"
     }
 ]

@@ -13,11 +13,15 @@ const Layout =({children, bgImage, heading = '', backLink = '/' }) =>{
                     >
                 
                     <Header  />
-                    {heading && <h1 className={styles.heading}>{heading}</h1>}
-                    {children && <div>{children}</div>}
-                    <Footer/>
+                    
+                    <div style={{ boxSizing: 'border-box', flex: 1,  justifyContent: 'center', alignItems: 'center'}}>
+                       {children}
+                   </div>
+                   <Footer/>
+                    
                 
             </section>
+            
         </div>
         
     )  

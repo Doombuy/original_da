@@ -10,8 +10,11 @@ import { useEffect, useState } from 'react';
 import Home from './components/layout/screens/home/Home.jsx'
 import NotFound from './components/layout/screens/not-found/NotFound.jsx'
 import Catalog from './components/layout/screens/catalog/Catalog.jsx'
+import Premium from './components/layout/screens/premium-Catalog/premiumCatalog.jsx';
 import './assets/styles/index.scss'
 import ProductTransition from './components/layout/catalog_modules/ProductTransition.jsx';
+import AboutUs from './components/layout/screens/about-us/AboutUs.jsx';
+import FavoritesPage from './components/layout/screens/FavoritePage/FavoritePage.jsx';
 import Layout from './components/layout/Layout.jsx';
 
 const App = () => {
@@ -36,8 +39,20 @@ const App = () => {
           element: <Catalog />
       },
       {
+          path: "/premiumCatalog",
+          element: <Premium />
+      },
+      {
           path: "/product/:id",
           element: <ProductTransition products={products} />
+      },
+      {
+        path: "/aboutUs",
+        element: <AboutUs/>
+      },
+      {
+        path:"/favoritepage",
+        element:<FavoritesPage/>
       }
   ]);
 
